@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/Hero\ Section\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  display: flex;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-top: 8px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 35px;
+  gap: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.home-span {
+  color: #00f0ff;
+}
+
+.main-search-container {
+  background-color: transparent;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.search-container {
+  background-color: transparent;
+  border: 0;
+  align-items: center;
+  color: white;
+  width: 130px;
+}
+
+.main-search-container > img {
+  width: 14px;
+  position: absolute;
+}
+
+.join-waitlist {
+  color: white;
+  background-color: #120a1a;
+  border: #00f0ff 1px solid;
+  border-radius: 30px;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.sb_holder {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.discover,
+.extraordinary {
+  color: white;
+  font-size: 47px;
+  font-family: sans-serif;
+  margin-left: 35px;
+  padding-left: 28px;
+}
+
+.trade-color,
+.digital-color {
+  color: #00f0ff;
+}
+
+.p-join {
+  color: white;
+  font-size: 22px;
+  margin-left: 35px;
+  padding-left: 29px;
+}
+
+.ul-list li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.discover,
+.extraordinary,
+.p-join {
+  margin: 10px;
+}
+
+.explore {
+  background-color: #00f0ff;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 35px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.p-explore {
+  color: #120a1a;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.ul-div {
+  display: flex;
+}
+
+.ul-list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-left: 35px;
+  color: white;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.toggle {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+  gap: 3px;
+}
+
+.line {
+  width: 25px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.explore:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.plus {
+  color: #00f0ff;
+}
+
+.h1-holdder {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.footer img {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+.footer img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .main-header {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .discover,
+  .extraordinary {
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+  .p-join {
+    font-size: 15.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .explore {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ul-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .ul-list {
+    font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer img {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    margin: 7px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .sb_holder {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+    gap: 10px;
+    margin-top: 18.5px;
+    margin-right: 10px;
+  }
+
+  .line {
+    gap: 10px;
+    margin: 8px;
+    font-weight: 900;
+  }
+
+  .h-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
